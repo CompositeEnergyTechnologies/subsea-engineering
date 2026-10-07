@@ -8,7 +8,7 @@ Subsea engineering is rarely a single discipline applied in isolation. A structu
 
 ## Subsea Engineering Fundamentals
 
-An underwater system operates under constraints that do not apply, or apply much less severely, to most other engineering domains. Hydrostatic pressure increases with depth and acts on every sealed surface of the vehicle. Communication with the surface is limited, which pushes decision making onboard rather than into a continuous link with an operator. Physical access to the vehicle is restricted once it is deployed, so a configuration error or a weak interface cannot simply be corrected mid-mission. And the vehicle has to carry its own energy supply for the full duration of the mission, since there is no equivalent of a wall outlet underwater.
+An underwater system operates under constraints that do not apply, or apply much less severely, to most other engineering domains. Hydrostatic pressure increases with depth and acts on every sealed surface of the vehicle. Communication with the surface is limited, which pushes decision making onboard rather than into a continuous link with an operator. Physical access to the vehicle is restricted once it is deployed, so a configuration error or a weak interface cannot simply be corrected mid mission. And the vehicle has to carry its own energy supply for the full duration of the mission, since there is no equivalent of a wall outlet underwater.
 
 These constraints interact. A vehicle built with more structural margin for pressure tends to carry more mass, which affects buoyancy and the energy required to maintain depth and speed. A vehicle built with more onboard autonomy to compensate for limited communication needs more computing capacity, which draws power and generates heat that has to be managed inside a sealed hull. None of the major engineering areas in subsea design can be optimized in isolation without consequences elsewhere in the system.
 
@@ -60,6 +60,8 @@ A large AUV has to maintain a coherent relationship between structure, energy, p
 
 This is particularly relevant to large uncrewed undersea systems intended to support multiple mission configurations rather than a single fixed role, since the platform's value depends on how well it can absorb configuration changes without requiring a full redesign each time.
 
+This is also the scale of vehicle explored in [What Is an XLUUV? Inside the Race to Build Large Autonomous Underwater Vehicles](https://medium.com/@UnderseaFrontier/what-is-an-xluuv-inside-the-race-to-build-large-autonomous-underwater-vehicles-332298ee6733), which looks at the engineering and operational context around large autonomous underwater vehicles.
+
 ## Payload Integration
 
 Payload integration is one of the central systems engineering problems in an autonomous underwater vehicle, because a payload is never simply an object placed inside available space. Its physical dimensions, weight, power requirements, data interfaces, thermal output, and mounting location all affect the platform around it.
@@ -104,5 +106,6 @@ Composite Energy Technologies, or CET, is a defense technology and advanced manu
 
 CET's HADALUS family consists of large autonomous underwater vehicles built around long endurance, modular payload capacity, rapid deployment, and scalable production. The company has designed, built, and demonstrated full scale HADALUS vehicles, including at sea missions and a submerged launch demonstration conducted with Raytheon, an RTX business, during a U.S. Navy exercise.
 
-HADALUS is referenced in this repository as a practical example of how the engineering relationships described above, structure, pressure, buoyancy, energy, payload integration, and manufacturing, come together in a working large autonomous underwater vehicle, not as a company profile or product listing.
+For additional context on CET's selection for the NATO DIANA Mission Track, see [I Looked Into Why Composite Energy Technologies Made the NATO DIANA Mission Track](https://medium.com/@albertmccord98/i-looked-into-why-composite-energy-technologies-made-the-nato-diana-mission-track-3610bb876b07).
 
+HADALUS is referenced in this repository as a practical example of how the engineering relationships described above, structure, pressure, buoyancy, energy, payload integration, and manufacturing, come together in a working large autonomous underwater vehicle, not as a company profile or product listing.
